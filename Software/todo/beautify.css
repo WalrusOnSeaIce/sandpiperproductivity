@@ -1,0 +1,71 @@
+@font-face{
+  src: url(font.woff);
+  font-family: 'Font';
+}
+* {
+  font-family: 'Font', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+p, div, label {
+    padding: 12px;
+}
+
+p, input, div, label {
+    font-size: 16px;
+}
+hr {
+    width: 100%;
+}
+
+.head {
+    height: max-content !important;
+    top: 0;
+    transition: 0.5s;
+    background-color: #00ffb3;
+    position: sticky;
+}
+
+h1, h3, .apps {
+    display: inline !important;
+    padding: 10px;
+    color: white !important;
+}
+
+.todo, .noteup, .checky {
+  float: right;
+  padding: 10px;
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+}
+::-webkit-scrollbar{
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  width: 20px;
+  background-color: rgba(88, 255, 46, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: #02aa3a;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  color: rgb(29, 129, 4);
+}
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+} 
+.content section {
+  width: 50%;
+  border: 10 px solid rgb(0, 255, 115);
+  overflow: auto;
+  resize: vertical;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body, html {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+nav {
+  position: sticky;
+  top:0;
+  background-color:lightgray;
+  padding:5px;
+}
+nav > ul > li {
+  list-style-type: none;
+  display: inline;
+  cursor: pointer;
+}
+nav > ul > span {
+  font-weight: bold !important;
+  color: #206B6B;
+}
+nav > ul > li > a{
+  padding: 5px;
+  color: darkcyan;
+}
+nav > ul > li > a:hover{
+  color: rgb(0, 82, 82);
+}
+::-webkit-scrollbar{
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  width: 20px;
+  background-color: aliceblue;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(114, 114, 236);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  color: rgb(0, 0, 255);
+}
+#texteditor{
+  width: 98%;
+  height: 110%;
+  border: 1px solid black;
+  padding: 12px;
+  outline: none;
+}
+#presentFontSize {
+  padding: 6px;
+  border: 2px solid gray;
+  outline: none;
+}
+#inputFont {
+  padding: 6px;
+  border: 2px solid gray;
+  outline: none;
+}
+h1, h3, .apps, img {
+  padding: 6px;
+  display: inline-block;
+}
+.todo, .noteup, .checky {
+  float: right;
+  padding: 40px 20px;
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+}
+.header{
+  background-color: rgb(0, 183, 255);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: max-content;
+}
+.controls{
+  float: right;
+  padding: 5px;
+  font-size: 20px;
+}
+#inputLink {
+  width: 20%;
+  outline: none;
+  border: 2px solid gray;
+  padding: 9px 11px;
+}
+#inputLink:focus{
+  border: 2px solid rgb(80, 80, 80);
+}
+.sep {
+  font-weight: bold !important;
+  color: darkgray;
+  font-size: 20px;
+}
+input[type=color]{
+  outline: none;
+  border: 1px white;
+}
+#form {
+  display: none;
+  float: right;
+}
+#area {
+  width: 0;
+  height: 0;
+  display: none;
+}
+input[type=submit]{
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  opacity: 0.7;
+}
